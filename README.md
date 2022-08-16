@@ -1,5 +1,6 @@
 # SQL-Practice
 This my first SQL practice lab.
+
 🙂What is SQL?
 SQL stands for Structured Query Language
 SQL lets you access and manipulate databases
