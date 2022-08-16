@@ -1,3 +1,4 @@
+create database Abhishek
 use Abhishek
 -- NOT NULL Practice
 create table test(Id int NOT NULL, 
