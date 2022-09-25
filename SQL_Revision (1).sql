@@ -12,8 +12,8 @@ create table employee(Id int,
 					  College varchar(20), 
 					  City varchar(20))
 select * from employee
-insert into employee values(101, 'Abhishek', '1999-07-16', 25000, '9572532379', 'IMS Ghaziabad', 'Ghaziabad'),(102, 'Thor', '1989-05-12', 124000, '8572872319', 'ABC Australia', 'Australia'),
-(103, 'Millie Bobby Brown', '1893-02-19', 98000, '7592532548', 'Delhi University', 'Delhi'),(104, 'Hulk', '1794-04-13', 35000, '9578432362', 'American College', 'America'),
+insert into employee values(101, 'Abhishek', '1999-01-16', 25000, '9512332379', 'IMS Ghaziabad', 'Ghaziabad'),(102, 'Thor', '1989-05-12', 124000, '8570172319', 'ABC Australia', 'Australia'),
+(103, 'Millie Bobby Brown', '1893-02-19', 98000, '7592532548', 'Delhi University', 'Delhi'),(104, 'Hulk', '1794-04-13', 35000, '9570032362', 'American College', 'America'),
 (105, 'Chris', '1785-02-11', 25000, '9542545179', 'Boys Clg Hawkins', 'Hawkins')
 update employee set salary=4280 where id=105
 alter table employee add marks int
@@ -27,7 +27,7 @@ update employee set marks=54 where salary>4000
 update employee set marks=null where salary>25000
 update employee set marks=60 where salary<=98000
 update employee set marks=95 where salary between 98000 and 25000
-update employee set mobile=9102520407 where college='delhi university'
+update employee set mobile=9102000407 where college='delhi university'
 update employee set marks=82 where name='thor'
 update employee set city='Motihari' , marks=99 where name='abhishek'
 update employee set marks=95 where NOT salary between 98000 and 25000
